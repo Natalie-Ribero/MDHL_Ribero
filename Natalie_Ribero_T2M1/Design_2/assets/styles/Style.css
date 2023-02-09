@@ -5,7 +5,6 @@
 }
 
 body {
-    background-color: aquamarine;
     font-family: cursive;
 }
 
@@ -18,24 +17,19 @@ h1, nav{
     display: inline;
 }
 
-header{
-    background-color: rgb(255, 255, 255);
-}
-
 div img{
-    background-color: black;
     width: 100vw;
 }
 
 .logo{
     background-color: aliceblue;
     width: 8vw;
+    margin-top: 0;
 }
 
 main div{
     display: inline-block;
     margin: 5px;
-    background-color: blueviolet;
     width: 60vw;
 }
 
@@ -56,4 +50,9 @@ button{
 
 a[href="#"]{
     background-color: rgba(127, 255, 159, 0.61);
+}
+
+.subtitulo{
+    border: 3px solid black;
+    text-align: center;
 }
