@@ -9,7 +9,7 @@ body {
 }
 
 h1{
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-weight: lighter;
     margin-right: 20px;
     margin-left: 10px;
@@ -35,15 +35,15 @@ main div{
     width: 60vw;
 }
 
-button a {
+nav a {
     font-size: 2vw;
     color: white;
     padding: 5px;
     text-decoration: none;
-}
-
-button{
     background-color: rgba(35, 123, 206, 0.877);
+    margin: 5px;
+    border: 2px solid black;
+    text-align: center;
 }
 
 .img_1, .img_2, .img_3{
@@ -57,8 +57,4 @@ a[href="#"]{
 .subtitulo{
     border: 3px solid black;
     text-align: center;
-}
-
-nav{
-    font-size: 2vw;
 }
