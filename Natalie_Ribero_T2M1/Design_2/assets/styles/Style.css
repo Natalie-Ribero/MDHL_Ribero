@@ -6,6 +6,12 @@
 
 body {
     background-color: aquamarine;
+    font-family: cursive;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: lighter;
 }
 
 h1, nav{
@@ -13,8 +19,7 @@ h1, nav{
 }
 
 header{
-    background-color: blue;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
 }
 
 div img{
@@ -38,6 +43,7 @@ button a {
     font-size: 2vw;
     color: white;
     padding: 5px;
+    text-decoration: none;
 }
 
 button{
@@ -47,6 +53,7 @@ button{
 .img_1, .img_2, .img_3{
     width: 20vw;
 }
+
 a[href="#"]{
     background-color: rgba(127, 255, 159, 0.61);
 }
