@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: aquamarine;
+}
+
 h1, nav{
     display: inline;
 }
 
 header{
     background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 div img{
@@ -19,5 +24,29 @@ div img{
 
 .logo{
     background-color: aliceblue;
+    width: 8vw;
 }
 
+main div{
+    display: inline-block;
+    margin: 5px;
+    background-color: blueviolet;
+    width: 60vw;
+}
+
+button a {
+    font-size: 2vw;
+    color: white;
+    padding: 5px;
+}
+
+button{
+    background-color: rgba(35, 123, 206, 0.877);
+}
+
+.img_1, .img_2, .img_3{
+    width: 20vw;
+}
+a[href="#"]{
+    background-color: rgba(127, 255, 159, 0.61);
+}
