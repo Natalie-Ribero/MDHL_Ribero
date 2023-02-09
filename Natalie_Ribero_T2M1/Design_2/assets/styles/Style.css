@@ -9,8 +9,10 @@ body {
 }
 
 h1{
-    font-size: 50px;
+    font-size: 5vw;
     font-weight: lighter;
+    margin-right: 20px;
+    margin-left: 10px;
 }
 
 h1, nav{
@@ -24,7 +26,7 @@ div img{
 .logo{
     background-color: aliceblue;
     width: 8vw;
-    margin-top: 0;
+    margin: 1vh;
 }
 
 main div{
@@ -55,4 +57,8 @@ a[href="#"]{
 .subtitulo{
     border: 3px solid black;
     text-align: center;
+}
+
+nav{
+    font-size: 2vw;
 }
