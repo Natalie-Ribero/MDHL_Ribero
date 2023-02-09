@@ -7,3 +7,17 @@
 h1, nav{
     display: inline;
 }
+
+header{
+    background-color: blue;
+}
+
+div img{
+    background-color: black;
+    width: 100vw;
+}
+
+.logo{
+    background-color: aliceblue;
+}
+
