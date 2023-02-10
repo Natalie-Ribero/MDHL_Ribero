@@ -6,6 +6,8 @@
 
 body {
     font-family: cursive;
+    background-color: rgb(0, 0, 0);
+    color:rgb(0, 255, 76)
 }
 
 h1 {
@@ -20,14 +22,16 @@ h1, nav {
 }
 
 div img {
-    width: 100vw;
+    width: 98vw;
 }
 
 .logo {
     background-color: aliceblue;
     width: 8vw;
     position: absolute;
-    margin-top: 3vw;
+    margin-top: 2vw;
+    border: 3px solid rgb(0, 255, 76)
+    ;
 
 }
 
@@ -42,9 +46,10 @@ nav a {
     color: white;
     padding: 5px;
     text-decoration: none;
-    background-color: rgba(5, 109, 206, 0.877);
+    background-color: rgba(0, 0, 0, 0.877);
     margin: 5px;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 255, 76)
+    ;
     text-align: center;
 }
 
@@ -56,10 +61,15 @@ a[href="#"] {
     background-color: rgb(0, 139, 35);
 }
 
+a[href="mailto:mdhl@chihockey.org"] {
+   color: rgb(251, 255, 10);
+}
+
 .subtitulo {
-    border: 3px solid black;
+    border: 3px solid rgb(0, 255, 76);
     text-align: center;
     margin-top: 0;
+    width: 98vw;
 }
 nav {
     position: absolute;
@@ -69,29 +79,30 @@ nav {
 
 .contact{
     position: absolute;
-    margin-top: 4vw;
+    margin-top: 2vw;
 
 }
 
 .img_3 {
     position: absolute;
     margin-left: 70vw;
-    margin-top: 4vw;
+    margin-top: 2vw;
 }
 
 .img_2, .img_1 {
     position: absolute;
-    margin-top: 4vw;
+    margin-top: 2vw;
 }
 
 .upcoming {
-   margin-top: 4vw;
+   margin-top: 2vw;
 }
 
 .mision {
     position: absolute;
-    margin-top: 4vw;
+    margin-top: 2vw;
 }
 .img_2 {
     margin-left: 75vw;
 }
+
