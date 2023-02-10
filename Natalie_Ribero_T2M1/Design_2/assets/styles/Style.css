@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,28 +8,28 @@ body {
     font-family: cursive;
 }
 
-h1{
+h1 {
     font-size: 4.5vw;
     font-weight: lighter;
     margin-right: 20px;
     margin-left: 10px;
 }
 
-h1, nav{
+h1, nav {
     display: inline;
 }
 
-div img{
+div img {
     width: 100vw;
 }
 
-.logo{
+.logo {
     background-color: aliceblue;
     width: 8vw;
     margin: 1vh;
 }
 
-main div{
+main div {
     display: inline-block;
     margin: 5px;
     width: 60vw;
@@ -40,26 +40,27 @@ nav a {
     color: white;
     padding: 5px;
     text-decoration: none;
-    background-color: rgba(35, 123, 206, 0.877);
+    background-color: rgba(5, 109, 206, 0.877);
     margin: 5px;
     border: 2px solid black;
     text-align: center;
 }
 
-.img_1, .img_2, .img_3{
+.img_1, .img_2, .img_3 {
     width: 20vw;
 }
 
-a[href="#"]{
-    background-color: rgb(49, 213, 90);
+a[href="#"] {
+    background-color: rgb(20, 250, 78);
 }
 
-.subtitulo{
+.subtitulo {
     border: 3px solid black;
     text-align: center;
+    margin-top: 0;
 }
 nav {
     position: absolute;
-    right: 5vw;
+    right: 2vw;
     top: 10vh;
 }
