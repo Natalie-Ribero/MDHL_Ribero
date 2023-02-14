@@ -72,6 +72,10 @@ main {
     flex-wrap: wrap;
 }
 
+.upcoming {
+    justify-content: space-around;
+}
+
 table {
     border:2px solid rgb(0, 255, 76);
 }
