@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,23 +6,38 @@
 }
 
 
-header{
+header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    width: 98vw;
 }
 
-nav{
-    
+nav {
+
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding: 1vw;
 }
 
-header img{
+nav a {
+    margin-right: 1vw;
+}
+
+header img {
     width: 6vw;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    width: 98vw;
 }
 
 /* h1 {
