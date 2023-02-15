@@ -43,7 +43,8 @@ nav a {
     text-decoration: none;
     padding: .5vw;
     background-color: rgb(0, 0, 0);
-    border: 1px solid rgba(0, 255, 76, 0.575);;
+    border: 1px solid rgba(0, 255, 76, 0.575);
+    ;
     border-radius: 10px;
 }
 
@@ -79,21 +80,22 @@ main {
     margin-bottom: 1vw;
 }
 
-.mainContact, .mainGameInfo{
+.mainContact,
+.mainGameInfo {
     justify-content: space-evenly;
 }
 
-.mainGameInfo{
+.mainGameInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.mision{
+.mision {
     display: flex;
     flex-wrap: wrap;
     width: 60vw;
-    padding: auto;
+    padding: 1vw;
 
 }
 
@@ -108,38 +110,42 @@ table {
     margin: 1.5vw;
 }
 
-td, th {
+td,
+th {
     padding: 1vw;
 }
 
-.img_1, .img_2, .img_3{
+.img_1,
+.img_2,
+.img_3 {
     width: 20vw;
 }
 
 a[href="mailto:mdhl@chihockey.org"] {
     color: rgb(251, 255, 10);
- }
+}
 
- a[href="michael.randal@chihockey.org"] {
+a[href="michael.randal@chihockey.org"] {
     color: rgb(251, 255, 10);
- }
+}
 
- .rules {
+.rules {
     margin-left: 2vw;
     width: 90vw;
- }
+}
 
- footer {
+footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     font-size: 1vw;
- }
+}
 
- .letras li{
+.letras li {
     list-style-type: upper-alpha;
- }
+}
 
- section h3, .regulations{
-    margin:1vw;
- }
+section h3,
+.regulations {
+    margin: 1vw;
+}
