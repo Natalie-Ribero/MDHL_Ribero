@@ -76,6 +76,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 .mainContact, .mainGameInfo{
@@ -104,6 +105,7 @@ table {
     background-color: rgba(33, 179, 45, 0.151);
     border: 1px solid rgba(0, 255, 76, 0.678);
     width: 40vw;
+    margin: 1.5vw;
 }
 
 td, th {
@@ -118,9 +120,26 @@ a[href="mailto:mdhl@chihockey.org"] {
     color: rgb(251, 255, 10);
  }
 
+ a[href="michael.randal@chihockey.org"] {
+    color: rgb(251, 255, 10);
+ }
+
+ .rules {
+    margin-left: 2vw;
+    width: 90vw;
+ }
+
  footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     font-size: 1vw;
+ }
+
+ .letras li{
+    list-style-type: upper-alpha;
+ }
+
+ section h3, .regulations{
+    margin:1vw;
  }
