@@ -75,6 +75,19 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 1vw;
+}
+
+.mainContact{
+    justify-content: space-evenly;
+}
+
+.mision{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    padding: auto;
+
 }
 
 .upcoming {
