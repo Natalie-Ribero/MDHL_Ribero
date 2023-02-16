@@ -209,12 +209,15 @@ input[type=text] {
 
 input[type=submit] {
     border-bottom: 2px solid rgba(0, 255, 76, 0.678);
-    width: 20vw;
     background-color: rgba(122, 150, 151, 0.493);
     width: 51%;
     font-size: 1vw;
     font-family: cursive;
     color: rgba(0, 255, 76, 0.678);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(79, 116, 83);
 }
 
 input {
@@ -252,4 +255,68 @@ footer {
 
 footer p {
     padding: .5vw;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav {
+        align-items: stretch;
+        flex-direction: column;
+        order: 3;
+        /* background-color: rgb(26, 76, 25); */
+        border-radius: 5px;
+    }
+
+    nav a {
+        margin: .5vw;
+    }
+
+    header {
+        z-index: 3;
+        align-items: flex-start;
+        justify-content: space-between;
+        background-image: url("../img/design2_image1.jpg");
+        background-size: cover;
+    }
+
+    h1, .logo {
+        color: rgb(32, 177, 61);
+        background-color: rgb(26, 76, 25);
+    }
+
+    .titleForm{
+        color:  rgba(0, 255, 76, 0.678);
+        background-color: black;
+    }
+
+    form{
+        width: 100vw;
+    }
+
+    fieldset{
+        width: 90vw;
+    }
+
+    main{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    input[type=submit] {
+        width: 93vw;
+        padding: 5vw;
+        font-size: large;
+    }
+
+    footer, .banner, .banner img {
+        display: none;
+    }
+
 }
