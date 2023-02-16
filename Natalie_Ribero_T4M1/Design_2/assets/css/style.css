@@ -105,7 +105,7 @@ main {
 .upcoming {
     justify-content: space-around;
 }
-
+/* Pagina Game Info */
 table {
     background-color: rgba(33, 179, 45, 0.151);
     border: 1px solid rgba(0, 255, 76, 0.678);
@@ -116,6 +116,22 @@ table {
 td,
 th {
     padding: 1vw;
+}
+
+.maps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+iframe{
+    margin: 1vw;
+}
+
+.school {
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
 }
 
 .img_1,
@@ -176,9 +192,6 @@ input[type=text] {
 input[type=submit] {
     border-bottom: 2px solid rgba(0, 255, 76, 0.678);
     width: 20vw;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
     background-color: rgba(122, 150, 151, 0.493);
 }
 
