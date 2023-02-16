@@ -94,6 +94,7 @@ main {
     align-items: center;
 }
 
+/* pagina about */
 .mision {
     display: flex;
     flex-wrap: wrap;
@@ -102,9 +103,22 @@ main {
 
 }
 
+.a1,
+.a2,
+.a3 {
+    margin-top: 1vw;
+}
+
+.parrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .upcoming {
     justify-content: space-around;
 }
+
 /* Pagina Game Info */
 table {
     background-color: rgba(33, 179, 45, 0.151);
@@ -124,7 +138,7 @@ th {
     justify-content: space-around;
 }
 
-iframe{
+iframe {
     margin: 1vw;
 }
 
@@ -132,12 +146,16 @@ iframe{
     display: flex;
     justify-content: center;
     font-size: 3vw;
+    text-decoration: dashed;
 }
 
-.img_1,
+.img_1 {
+    width: 20vw;
+}
+
 .img_2,
 .img_3 {
-    width: 20vw;
+    width: 30vw;
 }
 
 a[href="mailto:mdhl@chihockey.org"],
@@ -208,6 +226,15 @@ fieldset {
     margin: 10px;
     width: 50vw;
 
+}
+
+.parent {
+    margin-top: 1vw;
+}
+
+input[type="date"] {
+    background-color: rgba(122, 150, 151, 0.493);
+    font-size: large;
 }
 
 /* Pie de pagina */
