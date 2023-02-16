@@ -192,3 +192,18 @@ input[type=submit] {
     box-sizing: border-box;
     background-color: rgba(122, 150, 151, 0.493);
 }
+
+input {
+    padding: 1vw;
+    margin: .5vw;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1vw;
+    margin: 10px;
+    width: 50vw;
+    
+}

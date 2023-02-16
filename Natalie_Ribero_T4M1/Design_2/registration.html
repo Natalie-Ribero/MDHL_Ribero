@@ -30,31 +30,35 @@
     <div class="containerTitleForm">
         <h1 class="titleForm">Registration Form</h1>
     </div>
-    <form action="./show_data.html">
-        <fieldset>
+    <form action="./show_data.html" method="get">
+        <fieldset class="datosPersonales">
 
-            <label> Player's First Name : *
-                <input required type="text" name="firstN">
+            <label> Player's First Name :
+                <input type="text" name="firstN">
             </label>
 
             <label> Last Name : *
-                <input required type="text" name="lastN">
+                <input type="text" name="lastN">
             </label>
 
             <label> Street Address : *
-                <input required type="text" name="address">
+                <input type="text" name="address">
             </label>
 
             <label> City : *
-                <input required type="text" name="city">
+                <input type="text" name="city">
             </label>
 
             <label> Zip Code : *
-                <input required type="text" name="ZC">
+                <input type="text" name="ZipC">
             </label>
 
             <label> Birth Date (dd/mm/yyyy) *
-                <input required type="date" name="BDate">
+                <input type="date" name="BDate">
+            </label>
+
+            <label>Parent/Guardian
+                <input type="text">
             </label>
 
         </fieldset>
