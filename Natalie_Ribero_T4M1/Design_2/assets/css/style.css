@@ -214,6 +214,7 @@ input[type=submit] {
     width: 51%;
     font-size: 1vw;
     font-family: cursive;
+    color: rgba(0, 255, 76, 0.678);
 }
 
 input {
@@ -236,7 +237,7 @@ fieldset {
 }
 
 input[type="date"] {
-    background-color: rgba(122, 150, 151, 0.493);
+    background-color: rgb(122, 150, 151);
     font-size: large;
 }
 
