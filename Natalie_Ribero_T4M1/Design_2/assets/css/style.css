@@ -121,10 +121,7 @@ th {
     width: 20vw;
 }
 
-a[href="mailto:mdhl@chihockey.org"] {
-    color: rgb(251, 255, 10);
-}
-
+a[href="mailto:mdhl@chihockey.org"],
 a[href="michael.randal@chihockey.org"] {
     color: rgb(251, 255, 10);
 }
@@ -155,6 +152,7 @@ section h3,
     margin: 1vw;
 }
 
+/* Pagina de Registration */
 .containerTitleForm {
     display: flex;
     justify-content: center;
@@ -205,5 +203,5 @@ fieldset {
     padding: 1vw;
     margin: 10px;
     width: 50vw;
-    
+
 }
