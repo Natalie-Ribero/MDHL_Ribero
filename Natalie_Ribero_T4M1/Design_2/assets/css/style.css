@@ -182,13 +182,13 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     background-color: rgba(122, 150, 151, 0.493);
-  }
+}
 
-  input[type=submit] {
+input[type=submit] {
     border-bottom: 2px solid rgba(0, 255, 76, 0.678);
     width: 20vw;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     background-color: rgba(122, 150, 151, 0.493);
-  }
+}
