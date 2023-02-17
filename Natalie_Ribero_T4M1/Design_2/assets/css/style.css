@@ -277,9 +277,11 @@ footer p {
     }
 
     nav {
+
         order: 3;
         background-color: rgb(26, 76, 25);
         border-radius: 5px;
+        transform: translate(-5vw);
     }
 
     nav a {
