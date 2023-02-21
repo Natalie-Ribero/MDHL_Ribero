@@ -1,0 +1,151 @@
+/* Normalizado del documento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    color: rgba(0, 255, 76, 0.678);
+    font-family: cursive;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 7vw;
+}
+
+h1 {
+    font-size: 4vw;
+    text-shadow: #FC0 2px 0 10px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    margin-left: .5vw;
+    font-size: 2vw;
+    color: rgba(0, 255, 76, 0.678);
+    text-decoration: none;
+    padding: .5vw;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 255, 76, 0.575);
+    ;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: rgb(79, 116, 83);
+}
+
+a[href="#"] {
+    background-color: rgb(0, 139, 35);
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    width: 100vw;
+}
+
+.subtitulo {
+    border: solid rgba(0, 255, 76, 0.678);
+    text-align: center;
+    margin-top: 0;
+    width: 98.9vw;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.mainContact,
+.mainGameInfo {
+    justify-content: space-evenly;
+}
+
+.mainGameInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mision {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    padding: 1vw;
+
+}
+
+.upcoming {
+    justify-content: space-around;
+}
+
+table {
+    background-color: rgba(33, 179, 45, 0.151);
+    border: 1px solid rgba(0, 255, 76, 0.678);
+    width: 40vw;
+    margin: 1.5vw;
+}
+
+td,
+th {
+    padding: 1vw;
+}
+
+.img_1,
+.img_2,
+.img_3 {
+    width: 20vw;
+}
+
+a[href="mailto:mdhl@chihockey.org"] {
+    color: rgb(251, 255, 10);
+}
+
+a[href="michael.randal@chihockey.org"] {
+    color: rgb(251, 255, 10);
+}
+
+.rules {
+    margin-left: 2vw;
+    width: 90vw;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1vw;
+}
+
+.letras li {
+    list-style-type: upper-alpha;
+}
+
+section h3,
+.regulations {
+    margin: 1vw;
+}
