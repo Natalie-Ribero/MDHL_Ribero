@@ -18,7 +18,8 @@ header {
     justify-content: space-around;
 }
 
-header, nav {
+header,
+nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -116,7 +117,8 @@ main {
     justify-content: center;
 }
 
-.upcoming, .maps{
+.upcoming,
+.maps {
     justify-content: space-around;
 }
 
@@ -271,8 +273,9 @@ footer p {
         flex-wrap: wrap;
     }
 
-    body, nav{
-                flex-direction: column;
+    body,
+    nav {
+        flex-direction: column;
         align-items: stretch;
     }
 
@@ -317,7 +320,8 @@ footer p {
         width: 100vw;
     }
 
-    fieldset, table {
+    fieldset,
+    table {
         width: 90vw;
     }
 
@@ -337,14 +341,19 @@ footer p {
         font-size: medium;
     }
 
-    .img_1,.img_2, .img_3, footer,
+    .img_1,
+    .img_2,
+    .img_3,
+    footer,
     .banner,
     .banner img {
         display: none;
     }
 
-    .upcoming, .mision, .mainContact{
-        background-size:cover;
+    .upcoming,
+    .mision,
+    .mainContact {
+        background-size: cover;
         width: 100vw;
         height: 60vh;
         opacity: 0.5;
@@ -353,16 +362,18 @@ footer p {
     .upcoming {
         background-image: url("../img/hockey_1.jpg");
     }
-    
+
     .mision {
         background-image: url("../img/hockey_2.jpg");
     }
-    
-    .mainContact{
+
+    .mainContact {
         background-image: url("../img/hockey_3.jpg");
     }
 
-    .mision article, section, .parrafo{
+    .mision article,
+    section,
+    .parrafo {
         background-color: rgba(0, 0, 0, 0.782);
         color: rgb(17, 247, 0);
     }
