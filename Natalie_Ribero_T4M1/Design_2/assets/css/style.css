@@ -1,0 +1,370 @@
+/* Normalizado del documento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Cuerpo de documento */
+body {
+    background-color: black;
+    color: rgba(0, 255, 76, 0.678);
+    font-family: cursive;
+}
+
+/* Header */
+header {
+    justify-content: space-around;
+}
+
+header, nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.logo {
+    width: 7vw;
+}
+
+h1 {
+    font-size: 4vw;
+    text-shadow: #FC0 2px 0 10px;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+nav a {
+    margin-left: .5vw;
+    font-size: 2vw;
+    color: rgba(0, 255, 76, 0.678);
+    text-decoration: none;
+    padding: .5vw;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 255, 76, 0.575);
+    ;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: rgb(79, 116, 83);
+}
+
+a[href="#"] {
+    background-color: rgb(0, 139, 35);
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    width: 100vw;
+}
+
+.subtitulo {
+    border-bottom: solid rgba(0, 255, 76, 0.678);
+    text-align: center;
+    margin-top: 0;
+    width: 98.9vw;
+}
+
+/* Contenido principal de todos los HTML */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.mainContact,
+.mainGameInfo {
+    justify-content: space-evenly;
+}
+
+.mainGameInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* pagina about */
+.mision {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    padding: 1vw;
+
+}
+
+.a1,
+.a2,
+.a3 {
+    margin-top: 1vw;
+}
+
+.parrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upcoming, .maps{
+    justify-content: space-around;
+}
+
+/* Pagina Game Info */
+table {
+    background-color: rgba(33, 179, 45, 0.151);
+    border: 1px solid rgba(0, 255, 76, 0.678);
+    width: 50vw;
+    margin: 1.5vw;
+}
+
+td,
+th {
+    padding: 1vw;
+    border: 1px solid rgba(0, 255, 76, 0.678);
+    text-align: center;
+}
+
+.maps {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+iframe {
+    margin: 1vw;
+}
+
+.school {
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+    text-decoration: dashed;
+    background-color: black;
+}
+
+.img_1 {
+    width: 20vw;
+}
+
+.img_2,
+.img_3 {
+    width: 30vw;
+}
+
+a[href="mailto:mdhl@chihockey.org"],
+a[href="michael.randal@chihockey.org"] {
+    color: rgb(251, 255, 10);
+}
+
+.rules {
+    margin-left: 3vw;
+    width: 90vw;
+}
+
+.letras li {
+    list-style-type: upper-alpha;
+}
+
+section h3,
+.regulations {
+    margin: 1vw;
+}
+
+/* Pagina de Registration */
+.containerTitleForm {
+    display: flex;
+    justify-content: center;
+}
+
+.titleForm {
+    font-size: xx-large;
+    padding: 1vw;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid rgba(0, 255, 76, 0.678);
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgba(122, 150, 151, 0.493);
+}
+
+input[type=submit] {
+    border-bottom: 2px solid rgba(0, 255, 76, 0.678);
+    background-color: rgba(122, 150, 151, 0.493);
+    width: 51%;
+    font-size: 1vw;
+    font-family: cursive;
+    color: rgba(0, 255, 76, 0.678);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(79, 116, 83);
+}
+
+input {
+    padding: 1vw;
+    margin: .5vw;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1vw;
+    margin: 10px;
+    width: 50vw;
+
+}
+
+.parent {
+    margin-top: 1vw;
+}
+
+input[type="date"] {
+    background-color: rgb(122, 150, 151);
+    font-size: large;
+}
+
+/* Pie de pagina */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1vw;
+    border-top: 1px solid rgba(0, 255, 76, 0.678);
+}
+
+footer p {
+    padding: .5vw;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    body, nav{
+                flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav {
+
+        order: 3;
+        background-color: rgb(26, 76, 25);
+        border-radius: 5px;
+    }
+
+    nav a {
+        margin: .5vw;
+        font-size: 3vw;
+    }
+
+    header {
+        z-index: 3;
+        align-items: flex-start;
+        justify-content: space-between;
+        background-image: url("../img/design2_image1.jpg");
+        background-size: cover;
+        height: 40vh;
+    }
+
+    h1 {
+        color: rgb(32, 177, 61);
+        background-color: rgb(26, 76, 25);
+    }
+
+    .logo {
+        padding: 1.5vw;
+        width: 15vw;
+        align-self: self-end;
+    }
+
+    .titleForm {
+        color: rgba(0, 255, 76, 0.678);
+        background-color: black;
+    }
+
+    form {
+        width: 100vw;
+    }
+
+    fieldset, table {
+        width: 90vw;
+    }
+
+    main {
+        align-items: center;
+        flex-direction: column;
+        font-size: small;
+    }
+
+    input[type=submit] {
+        width: 93vw;
+        padding: 5vw;
+        font-size: large;
+    }
+
+    .subtitulo {
+        font-size: medium;
+    }
+
+    .img_1,.img_2, .img_3, footer,
+    .banner,
+    .banner img {
+        display: none;
+    }
+
+    .upcoming, .mision, .mainContact{
+        background-size:cover;
+        width: 100vw;
+        height: 60vh;
+        opacity: 0.5;
+    }
+
+    .upcoming {
+        background-image: url("../img/hockey_1.jpg");
+    }
+    
+    .mision {
+        background-image: url("../img/hockey_2.jpg");
+    }
+    
+    .mainContact{
+        background-image: url("../img/hockey_3.jpg");
+    }
+
+    .mision article, section, .parrafo{
+        background-color: rgba(0, 0, 0, 0.782);
+        color: rgb(17, 247, 0);
+    }
+
+}
